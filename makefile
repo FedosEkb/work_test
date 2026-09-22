@@ -110,9 +110,8 @@ doc:
 install-deps:
 	@echo "Обновление списков пакетов и установка CLI11 и nlohmann-json..."
 	sudo apt-get update && sudo apt-get install -y \
-		libcli11-dev \
-		nlohmann-json3-dev
-
+		libcli11-dev 
+		
 clean:
 	@echo "Clean build and doc directories..."
 	@rm -rf Debug
